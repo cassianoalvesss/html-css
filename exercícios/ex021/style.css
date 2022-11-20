@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+
+background-color: grey;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header {
+
+background-color: azure;
+
+}
+
+nav{
+    background-color: brown;
+    color: bisque;
+    padding: 3px;
+    box-shadow: 4px 2px 17px 4px rgba(0, 0, 0, 0.481);
+
+}
+
+a {
+    color: bisque;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: rgb(57, 57, 57);
+    text-decoration: underline;
+}
+
+.historiadobrasil{
+ background-color: rgb(88, 88, 88);
+}
+
+aside {
+
+    background-color: rgb(159, 159, 159);
+
+}
+
+a:visited{
+    color: bisque;
+    text-decoration: none;
+}
+
+main {
+border-radius: 5px;
+background-color: azure;
+padding: 1px;
+box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.63);
+}
+
+footer {
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 0px;
+}
+
+div#bola {
+    
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 100px;
+}
