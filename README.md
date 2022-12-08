@@ -1,2 +1,2 @@
 # html-css
-comi cu de curioso
+Repositório de HTML5 e CSS3
