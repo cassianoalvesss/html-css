@@ -1,19 +1,13 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 1020px) {
-    p h1 {
-       position: relative;
-       font-size: 10px;
-    }
-  }
-
 html {
-    height: 100%;
+    min-height: 100%;
     overflow-x: hidden;
   }
 
 body{
     margin: auto;
+    min-height: 100%;
 }
 
 @font-face {
@@ -36,14 +30,15 @@ header {
     background-color: #000000;
     text-align: center;
     width: auto;
-    height: 330px;
+    height: 20vw;
     padding: 1px;
+    t;
 }
 
 h1 {
     color: white;
     font-family: 'Amatic SC', cursive;
-    font-size: 190px;
+    font-size: 10vw;
     margin: auto;
 }
 
@@ -66,17 +61,21 @@ h2 > a:hover {
 }
 
 main {
-    font-size: 30pt;
+    font-size: 2.7vw;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
-    line-height: 59px;
+    line-height: 45px;
 
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 40px;
 }
 
-.s2 {
+section {
+    font-size: ;
+}
+
+.parallax{
     height: 850px;
     margin: 0px 0px 0px -40px;
 
@@ -84,7 +83,7 @@ main {
     box-shadow: #34343487 0px 20px 20px;
 }
 
-main > .s2> p {
+main > .parallax> p {
     color: white;
     background-color: rgba(211, 211, 211, 0.582);
 
@@ -101,33 +100,8 @@ main > .s2> p {
     padding: 6px 0px 0px 16.5px;
 }
 
-.s4 {
-    height: 850px;
-    margin: 0px 0px 40px -40px;
-
-    background:#00000000 url('../imagens/background002.jpg') center center/cover no-repeat fixed;
-    box-shadow: #34343487 0px 20px 20px;
-}
-
-main > .s4> p {
-    color: white;
-    background-color: rgba(84, 84, 84, 0.748);
-
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-radius: 10px;
-    box-shadow: #34343487 0px 10px 20px;
-
-    position: relative;
-    top: 27%;
-    left: 3%;
-    width: 564px;
-    height: 425px;
-    padding: 6px 0px 0px 16.5px;
-}
-
 footer {
-    font-size: 10pt;
+    font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-decoration: none;
@@ -137,6 +111,7 @@ footer {
 
     height: 16px;
     margin-top: 7px;
+    padding-bottom: 2px;
 }
 
 footer > p >a  {
