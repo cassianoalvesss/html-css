@@ -4,10 +4,7 @@ body{
     margin: 0px;
 }
 
-@font-face {
-    font-family: 'ADELIA';
-    src: url("fontes/ADELIA.otf") format('opentype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 header {
 
