@@ -6,6 +6,11 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
+@font-face {
+    font-family: 'AmaticSC-Bold';
+    src: url("fontes/AmaticSC-Bold.ttf") format('truetype');
+}
+
 header {
 
     background-color: #000000;
@@ -23,7 +28,7 @@ header {
 h1 {
 
     color: white;
-    font-family: 'ADEILA', cursive;
+    font-family: 'AmaticSC-Bold', cursive;
 
 
 }
