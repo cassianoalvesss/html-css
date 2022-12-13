@@ -32,7 +32,6 @@ header {
     width: auto;
     height: 20vw;
     padding: 1px;
-    t;
 }
 
 h1 {
@@ -69,10 +68,6 @@ main {
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 40px;
-}
-
-section {
-    font-size: ;
 }
 
 .parallax{
