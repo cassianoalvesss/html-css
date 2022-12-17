@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        td,th{
+            border:1px solid black;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+
+        .group{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de tabela</h1>
+
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="group" span="2">
+            <col class="cprofi">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tbody>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tbody>
+        <tbody>
+            <td>Julia</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Manicure</td>
+        </tbody>
+        <tbody>
+            <td>Otávio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Programador</td>
+        </tbody>
+        <tbody>
+            <td>Ana Carolina</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Atendente</td>
+        </tbody>
+        <tbody>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>37</td>
+            <td>Fotógrafo</td>
+        </tbody>
+        <tbody>
+            <td>Lucas</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Professor</td>
+        </tbody>
+    </table>
+
+</body>
+</html>
