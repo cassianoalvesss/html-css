@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    background: rgba(0, 0, 0, 0) url('pacote-d013/imagens/fundo-madeira.jpg') center top/cover no-repeat fixed;
+    margin: auto;
+}
+
+section {
+    position: relative;
+}
+
+picture{
+    
+}
