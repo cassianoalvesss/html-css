@@ -16,7 +16,6 @@ body{
     background: url('../pacote-d013/imagens/fundo-madeira.jpg') center top/cover fixed;
 }
 
-
 main{
     height: 100vh;
     position:relative
@@ -36,11 +35,11 @@ section#celular{
 iframe#tela{
     position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 50.5%;
+    transform: translate(-50%, -50.1%);
 
-    height: 480px;
-    width: 270px;
+    height: 468px;
+    width: 262px;
 }
 
 section#social{
