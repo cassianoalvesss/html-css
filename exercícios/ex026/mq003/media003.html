@@ -5,7 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Features</title>
-        <link rel="stylesheet" href="../mq003/estilos/sytle.css">
+<style>
+    /* Declarações Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        html, body {
+            background-color: #233eff;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 100vh;
+            width: 100vw;
+        }
+    /* Declarações Retrato */
+    @media screen and (orientation: portrait) {
+                body{
+            background: url(imagens/cev-portrait.jpg);
+            background-position: center bottom;
+}
+    }
+    /* Declarações Paisagem */
+    @media screen {
+                body {
+            background: url(imagens/cev-landscape.jpg);
+            background-position: left bottom;
+        }
+    }
+</style>
 <body>
     <h1>Mude a orientação do seu dispositivo</h1>
 </body>
