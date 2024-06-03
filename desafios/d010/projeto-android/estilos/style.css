@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+/* FONTES*/
+
+@font-face {
+    font-family: "BebasNeue" ;
+    src: url('../fontes/BebasNeue.ttf');
+}
+
+@font-face {
+    font-family: "idroid";
+    src: url('../fontes/idroid.otf');
+  }
+
+/* SET GERAL*/
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #D3D3D3;
+    overflow-x: hidden;
+}
+/* SET GERAL*/
+
+
+/* CABEÇALHO */
+header{
+    background-image: linear-gradient(180deg, #2DA464, #113119);
+    width: auto;
+    height: auto;
+    box-shadow: #656565 0px 2px 20px 0px;
+    color: white;
+}
+
+    #title{
+        font-family: "BebasNeue";
+        text-shadow: rgb(57, 57, 57) 2px 2px 2px;
+        font-size: 90px;
+        font-weight: 600;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    h3{
+        text-shadow: rgb(57, 57, 57) 2px 2px 2px;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    nav{
+        margin: 30px 0px 0px 0px;
+        padding: 6px;
+    }
+
+        #menu{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: double;
+            font-weight: bolder;
+            padding: 7px;
+            font-size: 15px;
+            color: #3ade86;
+            border-radius: 8px 8px 8px 8px;
+            transition-duration: 500ms;
+        }
+
+        #menu:hover{
+            background-color: #5df9a6;
+            color: #1A4B26;
+            transition-duration: 500ms;
+        }
+/* CABEÇALHO */
+
+
+main {
+    margin: auto;
+    text-align: justify;
+    background-color: white;
+    box-shadow: rgb(101, 101, 101) 2px 12px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1100px;
+    min-width: 320px;
+    border-radius: 0px 0px 20px 20px;
+    text-indent: 20px;
+}
+
+section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#title1{
+    font-family: "BebasNeue";
+    font-size: 50px;
+    color: #1A4B26;
+    margin: 10px;
+}
+
+    .title2{
+        font-family: 'idroid';
+        color: #1A4B26;
+        background-image: linear-gradient(90deg, #52de94, #ffffff );
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-indent: 3px;
+    }
+
+.pmain{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-indent: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+/*imagens*/
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+    #bugdroid{
+        width: 25%;
+    }
+/*imagens*/
+
+/*video*/
+#fundoverde{
+    background-color: #113119;
+    width: auto;
+    height: 500px;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    height: 460px;
+    width: 96.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*video*/
+
+#extra {
+    background-color: #52de94;
+    margin: 25px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 8px 20px 0px #656565;
+    
+}
+
+h2{
+    background-color: #113119;
+    color: white;
+    height: auto;
+    width: auto;
+    padding: 8px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+aside {
+    text-align: justify;
+    font-size: 15px;
+}
+
+aside > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.5px;
+    text-indent: 20px;
+    margin: 10px;
+    line-height: 18px;
+    padding: 10px;
+}
+
+li::before {
+    content: "\2714";
+}
+
+aside > ul {
+    columns: 2;
+}
+
+strong{
+    color: #1A4B26;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 17px;
+    text-indent: 0px;
+    text-align: justify;
+}
+
+.link{
+    background-color: #8ee9b9;
+    text-decoration: none;
+    padding: 2px;
+    color: #093614;
+    border-radius: 2px;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: #083914;
+}
+
+.link2{
+    background-color: #1A4B26;
+    text-decoration: none;
+    color: black;
+    padding: 1.5px;
+    border-radius: 2px;
+    color: white;
+}
+
+.link2:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.divd {
+    padding: 1px;
+    width: 250px;
+    height: 150px;
+}
+
+.link::before, .link2::before{
+    content: "\1F517";
+}
+
+.final {
+    text-align: center;
+    font-size: 17px;
+}
+
+/*rodape*/
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    background-color: #063B1D;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+/*rodape*/
